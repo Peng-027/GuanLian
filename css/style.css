@@ -436,6 +436,12 @@ h1,h2,h3,h4,h5,h6,p{
     max-width: 100%;
     max-height: 100%;
 }
+@media (max-width: 1025px){
+	.skill-card_icon{
+		height: 40px;
+		width: 40px;
+	}
+}
 @media (max-width: 768px){
 	.skill-group{
 		padding-top: 10vh;
@@ -515,6 +521,28 @@ h1,h2,h3,h4,h5,h6,p{
 .timeline-card_text2{
 	font-size: 14px;
 	color: #a1a1a1;
+}
+@media (max-width: 1025px){
+	.timeline-cards_text{
+    margin: 0;
+    color: #fff;
+    padding-left: 8px;
+}
+.timeline-card_subtitle{
+	margin-bottom: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+.timeline-card_text1{
+	font-size: 14px;
+	margin-bottom: 4px;
+	color: #fff;
+
+}
+.timeline-card_text2{
+	font-size: 14px;
+	color: #a1a1a1;
+}
 }
 @media (max-width: 768px){
 	.experience{
