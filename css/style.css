@@ -436,7 +436,7 @@ h1,h2,h3,h4,h5,h6,p{
     max-width: 100%;
     max-height: 100%;
 }
-@media (max-width: 1025px){
+@media (max-width: 1400px){
 	.skill-card_icon{
 		height: 40px;
 		width: 40px;
@@ -522,7 +522,7 @@ h1,h2,h3,h4,h5,h6,p{
 	font-size: 14px;
 	color: #a1a1a1;
 }
-@media (max-width: 1025px){
+@media (max-width: 1400px){
 	.timeline-cards_text{
     margin: 0;
     color: #fff;
