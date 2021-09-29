@@ -126,7 +126,6 @@ h1,h2,h3,h4,h5,h6,p{
 	z-index: 100;
 }
 @media (max-width: 960px){
-	
 	.navbar--collapse{
 		margin-right: -16px;
 		margin-left: -16px;
@@ -447,7 +446,11 @@ h1,h2,h3,h4,h5,h6,p{
 	.skill-card_inner{
 	border-radius: 4px;
 	padding: 16px 0px 16px 72px;
-}
+	}
+	.skill-card_icon{
+		height: 40px;
+		width: 40px;
+	}
 }
 
 /*-----timeline-----*/
@@ -501,6 +504,7 @@ h1,h2,h3,h4,h5,h6,p{
 .timeline-card_subtitle{
 	margin-bottom: 8px;
     font-size: 16px;
+    color: #fff;
 }
 .timeline-card_text1{
 	font-size: 14px;
@@ -691,8 +695,7 @@ h1,h2,h3,h4,h5,h6,p{
 @media (max-width: 768px){
 	.video-box{
 	width: 50%;
-	height: 300px;
-}
+	height: 300px;}
 }
 @media (max-width: 420px){
 	.video-info{
