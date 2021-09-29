@@ -126,9 +126,7 @@ h1,h2,h3,h4,h5,h6,p{
 	z-index: 100;
 }
 @media (max-width: 960px){
-	.navbar_nav{
-		display: none;
-	}
+	
 	.navbar--collapse{
 		margin-right: -16px;
 		margin-left: -16px;
@@ -695,6 +693,7 @@ h1,h2,h3,h4,h5,h6,p{
 	width: 50%;
 	height: 300px;
 }
+}
 @media (max-width: 420px){
 	.video-info{
 		margin-bottom: 55%;
@@ -769,6 +768,7 @@ h1,h2,h3,h4,h5,h6,p{
 	font-size: 16px;
 }
 @media (max-width: 420px){
+
 	.footer_logo{
 	background-size: 300px;
 	}
@@ -836,3 +836,4 @@ h1,h2,h3,h4,h5,h6,p{
 /*-----------------------------*/
 /*  $Parallax image
 ------------------------------ */
+.side-nav
