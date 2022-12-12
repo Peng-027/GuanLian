@@ -8,7 +8,7 @@
 
 // slider
 .slider{
-  height: 100vh;
+  height: calc(100vh - 48px);
   @include sm{
     height: 550px;
   }
