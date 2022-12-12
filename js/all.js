@@ -27,6 +27,7 @@ var newSwiper = new Swiper(".new-swiper", {
   },
 });
 
+
 $(window).scroll(function () {
   if ($(window).scrollTop() < ($(window).height() - 50)) {
     $('#go-top').fadeOut(350);
@@ -34,6 +35,7 @@ $(window).scroll(function () {
     $('#go-top').fadeIn(350);
   }
 });
+
 
 $('#go-top').click(function () {
   $('html,body').animate({
